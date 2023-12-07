@@ -23,3 +23,7 @@ class sportsform(sportsformTemplate):
   def check_box_1_change(self, **event_args):
     """This method is called when this checkbox is checked or unchecked"""
     pass
+
+  def text_box_1_change(self, **event_args):
+    """This method is called when the text in this text box is edited"""
+    pass
