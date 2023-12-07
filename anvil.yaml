@@ -11,4 +11,10 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
   server_spec: null}
 metadata: {title: 'SPORTS FOR PASSION ', description: 'SPORTS MEMBERSHIP ', logo_img: 'asset:UOCTkDb.jpg'}
 startup_form: null
+db_schema:
+  table_1:
+    client: none
+    server: full
+    columns: []
+    title: Table 1
 renamed: true

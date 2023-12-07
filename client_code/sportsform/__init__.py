@@ -1,5 +1,8 @@
 from ._anvil_designer import sportsformTemplate
 from anvil import *
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 
 class sportsform(sportsformTemplate):
   def __init__(self, **properties):

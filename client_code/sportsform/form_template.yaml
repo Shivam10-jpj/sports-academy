@@ -9,6 +9,13 @@ components:
   layout_properties: {slot: default}
   components:
   - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: SPORTS ACADEMY FORM, font_size: 24, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+      underline: false, icon: ''}
+    name: label_11
+    layout_properties: {grid_position: 'GLZBWK,TZFVGQ'}
+  - type: Label
     properties: {role: input-prompt, align: left, tooltip: '', border: '', foreground: '',
       visible: true, text: ENTER YOUR FULL NAME -, font_size: 20, font: '', spacing_above: small,
       icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
@@ -52,6 +59,17 @@ components:
       background: '', bold: false, underline: false}
     name: text_box_3
     layout_properties: {grid_position: 'GNFOAW,LSOFEI'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: ENTER YOUR FULL ADDRESS -, font_size: 20, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+      underline: false, icon: ''}
+    name: label_10
+    layout_properties: {grid_position: 'WEZZDQ,NBRWXK'}
+  - type: TextArea
+    properties: {}
+    name: text_area_1
+    layout_properties: {grid_position: 'UABDSS,XEGJQH'}
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
       visible: true, text: 'DO YOU NEED PERSONAL TRAINER ?', font_size: 20, font: '',
@@ -104,12 +122,13 @@ components:
     layout_properties: {grid_position: 'IYGSHO,LCIMVF'}
     data_bindings: []
   - type: Button
-    properties: {role: outlined-button, align: center, tooltip: '', border: '', enabled: true,
+    properties: {role: filled-button, align: center, tooltip: '', border: '', enabled: true,
       foreground: '', visible: true, text: Submit, font_size: null, font: '', spacing_above: small,
-      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
       underline: false, icon: ''}
     name: outlined_button_1
-    layout_properties: {grid_position: 'KSDGWL,ZGWTSC'}
+    layout_properties: {grid_position: 'RKLNHW,VWARAY'}
+    data_bindings: []
 - type: FlowPanel
   properties: {}
   name: navbar_links
@@ -138,7 +157,7 @@ components:
     layout_properties: {}
 - type: Label
   properties: {role: null, align: left, tooltip: '', border: '', foreground: '', visible: true,
-    text: 'SPORTS ACADEMY FORM ', font_size: 30, font: '', spacing_above: small, icon_align: left,
+    text: 'SPORTS ACADEMY ', font_size: 30, font: '', spacing_above: small, icon_align: left,
     spacing_below: small, italic: false, background: '', bold: true, underline: false,
     icon: ''}
   name: label_6
