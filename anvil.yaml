@@ -3,6 +3,9 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+- source: /runtime/services/anvil/email.yml
+  client_config: {}
+  server_config: {}
 startup: {type: form, module: sportsform}
 package_name: SPORTS_ACADEMY
 allow_embedding: false
@@ -12,9 +15,27 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
 metadata: {title: 'SPORTS FOR PASSION ', description: 'SPORTS MEMBERSHIP ', logo_img: 'asset:UOCTkDb.jpg'}
 startup_form: null
 db_schema:
-  table_1:
+  sport:
     client: none
     server: full
-    columns: []
-    title: Table 1
+    columns:
+    - name: NAME
+      admin_ui: {width: 200, order: 0}
+      type: string
+    - name: AGE
+      admin_ui: {width: 200, order: 1}
+      type: number
+    - name: NUMBER
+      admin_ui: {width: 200, order: 2}
+      type: number
+    - name: ADDRESS
+      admin_ui: {width: 200, order: 3}
+      type: string
+    - name: PERSONAL_TRAINER
+      admin_ui: {order: 4, width: 200}
+      type: bool
+    - name: SPORT_YOU_LIKE
+      admin_ui: {order: 5, width: 200}
+      type: string
+    title: sport
 renamed: true
