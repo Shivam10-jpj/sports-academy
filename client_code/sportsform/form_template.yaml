@@ -15,10 +15,6 @@ components:
       underline: false, icon: ''}
     name: label_11
     layout_properties: {grid_position: 'EXUBSV,JZJFJC'}
-  - name: image_1
-    properties: {source: _/theme/Sports-Logo-Designs-1280x720.jpg}
-    type: Image
-    layout_properties: {grid_position: 'OGBDMN,OKXZCS'}
   - type: Label
     properties: {role: input-prompt, align: left, tooltip: '', border: '', foreground: '',
       visible: true, text: ENTER YOUR FULL NAME -, font_size: 20, font: '', spacing_above: small,
